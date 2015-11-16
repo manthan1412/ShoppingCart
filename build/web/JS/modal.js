@@ -141,6 +141,14 @@ jQuery(document).ready(function($){
 //		event.preventDefault();
 //		$form_signup.find('input[type="email"]').toggleClass('has-error').next('span').toggleClass('is-visible');
 //	});
+        var $cat = $('.category'),
+            $category = $cat.find('#cat'),
+            $list = $cat.find('#list');
+            
+        $category.on('click',function (event){
+            event.preventDefault();
+            $list.toggleClass('visible');
+        });
 });
 
 

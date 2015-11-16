@@ -34,6 +34,7 @@
         <link rel="stylesheet" href="CSS/reset.css"/>
         <link rel="stylesheet" href="CSS/mycart.css"/>
         <link rel="stylesheet" href="CSS/modal.css"/>
+        <!--<link rel="stylesheet" href="CSS/category.css"/>-->
         <script src="JS/jquery-2.1.4.js"></script>
         <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
         <script src="JS/modal.js"></script>
@@ -320,6 +321,17 @@
 		</div> 
 	</div>
         
+                                                
+        <div class="category">
+            <a class="padding" id="cat" href="#">Category</a>
+            <ul class="list" id="list">
+                <li class="list-item">Electronics</li>
+                <li class="list-item">Kitchen</li>
+                <li class="list-item">Men</li>
+                <li class="list-item">Womens</li>
+            </ul>
+            
+        </div>
           <!--main container-->
         <div class="main">
             <!--<p>main-container</p>-->
