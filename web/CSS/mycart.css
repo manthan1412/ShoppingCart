@@ -765,33 +765,32 @@ Sidebar
   }
 }
 
-.category{
+.menu{
     position: fixed;
-    margin-top: 78px;
+    margin-top: 70px;
+    z-index: 3;
+    background-color: white;
+    padding: 8px;
+}
+
+.category{
+    display: none;
+    position: fixed;
+    margin-top: 70px;
     z-index: 4;
 }
 
-.padding{
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-right: 45px;
-    padding-left: 45px;
-    background-color: #3E454C;
-    color:white;
-}
-
-.padding:hover{
-    cursor: pointer;
+#category.visible{
+    display: block;
 }
 
 .list{
-    display: none;
-    margin-top: 12px;
+    display: block;
     background-color: #33383E;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-right: 45px;
-    padding-left: 45px;
+    padding-bottom: 12px;
+    padding-top: 5px;
+    padding-right: 35px;
+    padding-left: 35px;
     color:white;
 }
 
@@ -805,9 +804,19 @@ Sidebar
     cursor: pointer;
 }
 
-#list.visible{
-    display: block;
+.cat{
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: white;
+    border-spacing: 0px;
+    padding-bottom: 10px;
 }
+
+.cat:hover{
+    color: white;
+    cursor: default;
+}
+
 
 .main{
     position: fixed;
@@ -849,24 +858,18 @@ Sidebar
     position: relative;
     float: left;
     width: 100%;
-    background-color: #99ff99;
     min-height: 200px;
     height: auto;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
 }
 
 .offer{
     position: relative;
     float: left;
-    width: 160px;
-    height: 160px;
-    background-color: white;
-    margin-left: 14px;
-    margin-top:10px;
-    margin-bottom: 10px;
+    width: 165px;
+    height: 165px;
+    background-color: lightsteelblue;
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 
@@ -874,25 +877,18 @@ Sidebar
     position: relative;
     float: left;
     width: 100%;
-    margin-top: 25px;
-    background-color: #99ff99;
     min-height: 200px;
     height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
 }
 
 .pro{
     position: relative;
     float: left;
-    width: 160px;
-    height: 160px;
-    background-color: white;
-    margin-left: 14px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 165px;
+    height: 165px;
+    background-color: lightgray;
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 .advts{
@@ -900,10 +896,10 @@ Sidebar
     float: top;
     min-height: 200px;
     height: auto;
-    margin-left: 74%;
+    margin-left: 73%;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 24%;
+    width: 25%;
     padding-bottom: 20px;
 }
 

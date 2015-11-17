@@ -127,7 +127,7 @@
                                  session.setAttribute("signup_password",(String)signup_password);
                                  session.setAttribute("signup_email",(String)signup_email);
                                 %>
-                                 document.getElementById("demo").innerHTML = "<%=session.getAttribute("signup_username")%>";
+                                // document.getElementById("demo").innerHTML = "<%=session.getAttribute("signup_username")%>";
                                  document.getElementById("open-me-next").click();
                               <%}
                          }
@@ -321,16 +321,17 @@
 		</div> 
 	</div>
         
-                                                
-        <div class="category">
-            <a class="padding" id="cat" href="#">Category</a>
+        <div class="menu">
+            <img src="IMAGE/Arrow.png" style="height:16px; width: 16px;">
+        </div>                     
+        <div class="category" id="category">
             <ul class="list" id="list">
+                <li class="list-item cat">Categories</li>
                 <li class="list-item">Electronics</li>
                 <li class="list-item">Kitchen</li>
                 <li class="list-item">Men</li>
                 <li class="list-item">Womens</li>
             </ul>
-            
         </div>
           <!--main container-->
         <div class="main">
